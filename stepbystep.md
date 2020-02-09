@@ -4,4 +4,6 @@
 
 2. Padronizando mensagens de commit do Git usando commitlint, husky e o commitizen
 
-3.
+3. Configuramos o EditorConfig, ESLint & Prettier
+
+4.
