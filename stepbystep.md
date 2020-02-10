@@ -58,7 +58,7 @@
    Vamos configurar o ESLint
 
     ```bash
-    # Delete os arquivos .eslintrc e .prettierrc se eles já existirem noprojeto
+    # Delete os arquivos .eslintrc e .prettierrc se eles já existirem no projeto
     comp:~/first-project-with-react$ yarn add eslint -D
     comp:~/first-project-with-react$ yarn eslint --init
     # E escolhemos
@@ -184,4 +184,4 @@
     └── yarn.lock
     ```
 
-6.
+6. Criando o Header
