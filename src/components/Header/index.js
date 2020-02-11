@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { connect, useSelector } from 'react-redux';
+import { useSelector } from 'react-redux';
 
 import Icon from 'react-native-vector-icons/MaterialIcons';
 

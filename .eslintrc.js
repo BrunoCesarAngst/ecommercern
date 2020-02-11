@@ -35,6 +35,7 @@ module.exports = {
     'no-param-reassign': [2, {'props': false}],
     'react/state-in-constructor': ['error', 'never'],
     'react/prop-types': 0,
+    'no-unused-vars': 0,
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn'
     }
