@@ -31,5 +31,8 @@ module.exports = {
     ],
     'import/prefer-default-export': 'off',
     'no-console': 'off',
+    'react/jsx-props-no-spreading': ['off'],
+    'no-param-reassign': [2, {'props': false}],
+    'react/state-in-constructor': ['error', 'never'],
     }
 };
