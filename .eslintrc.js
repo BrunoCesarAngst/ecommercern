@@ -19,7 +19,7 @@ module.exports = {
         'sourceType': 'module'
     },
     'plugins': [
-        'react', 'prettier'
+        'react', 'prettier', 'react-hooks'
     ],
     'rules': {
       'prettier/prettier': 'error',
@@ -34,5 +34,8 @@ module.exports = {
     'react/jsx-props-no-spreading': ['off'],
     'no-param-reassign': [2, {'props': false}],
     'react/state-in-constructor': ['error', 'never'],
+    'react/prop-types': 0,
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn'
     }
 };
